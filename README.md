@@ -1,8 +1,8 @@
 # Cognibotic Lab's website
 
-### jekyll 4.4.1
+### Jekyll version: 4.4.1
 
-## Developmentss
+## Development
 ### Create jekyll and gems
 ``` shell
 gem install jekyll bundler
@@ -13,9 +13,9 @@ gem install jekyll bundler
 jekyll new website_name --blank
 ```
 
-### Or pull from githum
+### Or pull from github
 ``` shell
-git clone https://github.com/tuantdang/lab_website.git
+git clone https://github.com/tuantdang/cogniboticslab.git
 ```
 
 ### Build
