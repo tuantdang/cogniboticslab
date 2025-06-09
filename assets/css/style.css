@@ -24,14 +24,6 @@ header {
 }
 
 .hero-banner {
-  background-color: #252526;     /* Panel background */
-  color: #ffffff;
-  text-align: center;
-  /* padding: 2px; */
-  position: relative;
-}
-
-.hero-banner {
   background-image: url('../images/lab.png');
   background-size: cover;
   background-position: center;
@@ -98,6 +90,7 @@ nav a.active {
 }
 
 @media (max-width: 768px) {
+
   nav {
     padding: 20px;
   }
@@ -134,6 +127,7 @@ nav a.active {
   nav a:first-child {
     border-top: none;
   }
+
 }
 
 /* ===== MAIN CONTENT ===== */
@@ -184,8 +178,29 @@ footer {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: linear-gradient(to right, #f3e8ff, #d6bcfa);
+  background: linear-gradient(to right, #f3e8ff, #d6bcfa); 
 }
+
+.main-banner {
+  background-image: url('../images/uark.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.main-overlay {
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(to right, rgb(35, 35, 35), transparent);
+  /* margin-top: 10px; */
+  /* padding: 10px 100px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 
 a {
   color: #569cd6;
@@ -219,4 +234,8 @@ a:active {
   font-size: 16px;
   padding-top: 5px;
   padding-left: 75px;
+}
+
+.directory_people{
+  margin-top: 25px;
 }

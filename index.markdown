@@ -7,10 +7,10 @@ permalink: ./index.html
 
 
 <div class="hero-banner ">
-<div class="hero-overlay">
-    <h1 style="    font-size: 1.4em;">{{site.title}}</h1>
-    <p>{{site.description}} </p>
-</div>
+    <div class="hero-overlay">
+        <h1 style="    font-size: 1.4em;">{{site.title}}</h1>
+        <p>{{site.description}} </p>
+    </div>
 </div>
 
 <section class="news">

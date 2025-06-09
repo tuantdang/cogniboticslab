@@ -1,31 +1,33 @@
-# Cognibotic Lab's website
+# Cognibotics Lab's website
 
-### Jekyll version: 4.4.1
+- Version: Jekyll 4.4.1
 
-## Development
-### Create jekyll and gems
+# Development
+- Create jekyll and gems
 ``` shell
 gem install jekyll bundler
 ```
 
-### Create new website
+- Create new website
 ``` shell
 jekyll new website_name --blank
 ```
 
-### Or pull from github
+- Or pull from github
 ``` shell
 git clone https://github.com/tuantdang/cogniboticslab.git
 ```
 
-### Build
+# Build
 ``` shell
 bundle exec jekyll serve
 ```
 
-### Results
-Find the result of static website at _site directory.
+# Design
+- Please make changes as your own design at **_layout/default.html**
+- Specific page located at **_inlcude/*.html** and **markdown files**: *.markdown
+- Database: **_data**
 
-## Modification 
-- Feel free to add content and custom Front Matter to this file.
-- To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+# Deployment
+Find the result of static web pages (*.html) at **_site** directory.
