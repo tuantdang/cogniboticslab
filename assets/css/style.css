@@ -20,11 +20,30 @@ body {
 header {
   background-color: #252526;
   text-align: center;
-  padding: 30px 30px;
+  /* padding: 30px 30px; */
 }
 
+.main-banner {
+  background-image: url('../images/uark.jpg');
+  background-size: cover;
+  /* background-size: auto 100%; */
+  background-position: center;
+  height: 185px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.main-overlay {
+  width: 100%;
+  background: linear-gradient(to right, rgb(35, 35, 35), transparent);
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+
 .hero-banner {
-  background-image: url('../images/lab.png');
+  background-image: url('../images/lab.jpg');
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -34,9 +53,15 @@ header {
 }
 
 .hero-overlay {
+  
   width: 100%;
-  background: linear-gradient(to top, rgb(15, 15, 15), transparent);
+  background: linear-gradient(to right, rgb(5, 5, 5), transparent);
   padding: 5px 10px;
+}
+
+.hero-text{
+  text-align: center;
+  color: whitesmoke;
 }
 
 
@@ -80,54 +105,13 @@ nav a.active {
   display: None;
   position: absolute;
   top: 0px;
-  right: 20px;
+  /* right: 20px; */
 
   font-size: 26px;
   color: #d4d4d4;
   background: none;
   border: none;
   cursor: pointer;
-}
-
-@media (max-width: 768px) {
-
-  nav {
-    padding: 20px;
-  }
-
-  .menu {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    background-color: #2d2d30;
-    width: 100%;
-	  display: flex; /* 👈 Keep menu shown initially */
-
-  }
-  
-   .menu:not(.active) {
-    display: none; /* 👈 Only hide if active is removed by toggle */
-  }
-
-  .menu.active {
-    display: flex;
-  }
-
-  .hamburger {
-    display: block;
-	
-  }
-
-  nav a {
-    width: 100%;
-    text-align: center;
-    border-top: 1px solid #3c3c3c;
-  }
-
-  nav a:first-child {
-    border-top: none;
-  }
-
 }
 
 /* ===== MAIN CONTENT ===== */
@@ -139,16 +123,19 @@ main {
 }
 
 section {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 20px;
-  /* margin-left: 20px; */
+  margin-top: 20px;
+  /* margin-bottom: 5px; */
+  /* padding: 10px; */
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-h2, h3, h4 {
+h2, h3, h4, h5 {
   /* margin-bottom: 16px; */
   color: #569cd6;
   /* font-weight: 600; */
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 p, li {
@@ -163,6 +150,7 @@ p, li {
   border-radius: 6px;
   margin-top: 5px;
   padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 /* ===== FOOTER ===== */
@@ -181,25 +169,6 @@ footer {
   background: linear-gradient(to right, #f3e8ff, #d6bcfa); 
 }
 
-.main-banner {
-  background-image: url('../images/uark.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 200px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
-
-.main-overlay {
-  width: 100%;
-  height: 80px;
-  background: linear-gradient(to right, rgb(35, 35, 35), transparent);
-  /* margin-top: 10px; */
-  /* padding: 10px 100px; */
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
 
 
 a {
@@ -238,4 +207,99 @@ a:active {
 
 .directory_people{
   margin-top: 25px;
+}
+
+
+
+/*    Mobile          */
+@media (max-width: 768px) {
+
+  nav {
+    padding: 0px;
+    margin-top: -5px;
+    /* position: relative; */
+    
+  }
+
+  .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col-sm12 .col-md-6 {
+    display: flex;
+    align-items: center; /* vertically center items */
+    justify-content: center; /* or center, flex-start, etc. */
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2d2d30;
+    width: 100%;
+	  display: flex; /*Keep menu shown initially */
+    position: fixed;
+
+    width: 60%;
+    z-index: 10;
+    padding: 1rem;
+    border-radius: 0 0 0 10px;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+   .menu:not(.active) {
+    display: none; /* Only hide if active is removed by toggle */
+  }
+
+  .menu.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+    margin-top: -50px;
+    margin-left: 5px;
+  }
+
+  nav a {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #3c3c3c;
+  }
+
+  nav a:first-child {
+    border-top: none;
+  }
+
+  .main-banner {
+    background-size: 110% 100%;
+    background-position: center;
+    height: 100px;
+  }
+
+  .main-overlay {
+    /* padding-top: 20px; */
+    padding-bottom: 5px;
+  }
+
+  main {
+    padding: 2px; /* top right bottom left; */
+  }
+
+  section {
+    padding: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+  }
+}
+
+.image-project{
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  margin-bottom: 5px;
 }

@@ -7,15 +7,18 @@ permalink: ./team.html
 <!-- <h2>Lab members</h2> -->
 
 <section>
+
+    <h5> Under Construction</h5> 
+    <p>Please join our team at <a href="/joinus.html">Cognitive Robotics Lab </a> </p>
    {% for group in site.data.team %}
         {% if group.people.size > 0 %}
-        <div class="directory_people" >
+        <div class="row" >
             <h4 style="margin-top: 10px; margin-bottom: 10px;">{{group.name}}</h4>
             <!-- {{ group | inspect }} -->
-            <div class="directory_listPeople">
+            <div class="row">
                 <div class="row">
                     {% for item in group.people %}
-                    <div class="col-md-4 col-sm-6 col-xs-6">
+                    <div class="col-sm12 col-md-6 col-md-3">
                         <a href="{{item.url}}">
                             <div ><img class="photo" src="{{item.image}}" ></div>
                             <div class="name" >{{item.name}}</div>

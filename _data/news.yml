@@ -1,5 +1,7 @@
+# - date: March 2025
+  # event: Launch Cogintive Robotic Lab (Cognibotic Lab) website.
 - date: Recuitment
-  event: Cognibotic Lab is actively recruiting <strong> 2 Ph.D students </strong>. Please check the <a href="https://docs.google.com/document/d/1xmUQpZSm2TtaDXK6J53Gnif3qavKYct3xVQlsC6FJ7Y/edit?usp=sharing">job description</a> for more information.
-- date: March 2025
-  event: Launch Cogintive Robotic Lab (Cognibotic Lab) website.
+  event: Cognibotic Lab is actively recruiting <strong> 2 Ph.D students </strong>. Please check <a href="/joinus.html">job description</a> for more information.
 
+- date: June 2025
+  event: "Our paper \"Bio-Inspired Hybrid Map: Spatial Implicit Local Frames and Topological Map for Cobot Navigation\" is accepted to <a href=\"https://www.iros25.org/\">IROS 2025</a>"
