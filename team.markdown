@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Team
+title: Team - Cognitive Robotics Lab
 permalink: ./team.html 
 # permalink: /team/
 ---

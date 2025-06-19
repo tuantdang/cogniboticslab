@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tuan Dang Profile
+title: Tuan Dang Profile - Cognitive Robotics Lab
 # permalink: ./joinus.html 
 permalink: /tuandang/
 ---
@@ -27,9 +27,9 @@ permalink: /tuandang/
                     <h4>Educations</h4>
                     <hr>
                     <ul>
-                        <li>PhD, University of Texas at Arlington, USA, 2025</li>
+                        <li>PhD, University of Texas at Arlington, Computer Science & Engineering, USA, 2025</li>
                         <li>MSc, Electrical & Computer Engineering, Sungkyunkwan University, South Korea, 2013</li>
-                        <li>Bs, Computer Science & Engineering, Ho Chi Minh City University of Technology, 2010</li>
+                        <li>BSc, Computer Science & Engineering, Ho Chi Minh City University of Technology, 2010</li>
                     </ul>
                     
                     <h4>Publications</h4> 

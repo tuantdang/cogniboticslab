@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Join Us
+title: Join Us - Cognitive Robotics Lab
 permalink: ./joinus.html 
 # permalink: /team/
 ---

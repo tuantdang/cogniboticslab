@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Pulications
+title: Publications - Cognitive Robotics Lab
 permalink: ./publications.html 
-# permalink: /team/
 ---
 
 <section  >
@@ -18,7 +17,7 @@ permalink: ./publications.html
         
         <div class="col-sm12 col-md-4">
             {% if item.Image%}
-                <image src="/assets/images/publications/{{item.Image}}" class="image-project"/>
+                <image src="/assets/images/publications/{{item.Image}}" class="image-project" alt="{{item.Image}}"/>
             {% endif %}
         </div>
         <div class="col-sm12 col-md-8">

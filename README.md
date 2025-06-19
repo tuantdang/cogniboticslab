@@ -1,5 +1,7 @@
 # Cognibotics Lab's website
 
+![](./images/site.jpg)
+
 - Version: Jekyll 4.4.1
 
 # Development

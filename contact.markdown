@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact
+title: Contact - Cognitive Robotics Lab
 permalink: ./contact.html 
 # permalink: /team/
 ---
