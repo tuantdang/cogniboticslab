@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Publications - Cognitive Robotics Lab
-permalink: ./publications.html 
+permalink: /publications/
 ---
 
 <section  >

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Join Us - Cognitive Robotics Lab
-permalink: ./joinus.html 
+permalink: /joinus/
 # permalink: /team/
 ---
 <section >
@@ -41,6 +41,6 @@ permalink: ./joinus.html
 
     <p><strong>Location </strong> : University of Arkansas, Department of Electrical Engineering and Computer Science, Fayetteville, AR 72701 </p>
     <p> <strong>Start Date </strong> : Fall 2025 or Spring 2026 </p>
-    <p> <strong>How to Apply</strong> : Send your CV, IELTS/TOEFL iBT, GRE, and Transcripts to <a href="mailto:dangthanhtuanit@gmail.com"> dangthanhtuanit@gmail.com </a>. </p>
+    <p> <strong>How to Apply</strong> : Send your CV, IELTS/TOEFL iBT, GRE, and Transcripts to <a href="mailto:dangthanhtuanit@gmail.com"> tuand@uark.edu </a> </p>
     <p> We will review applications using a first come, first served policy. </p>
 </section>

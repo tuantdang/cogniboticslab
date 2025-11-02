@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Team - Cognitive Robotics Lab
-permalink: ./team.html 
+permalink: /team/
 # permalink: /team/
 ---
 <!-- <h2>Lab members</h2> -->

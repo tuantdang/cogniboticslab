@@ -2,7 +2,7 @@
 layout: default
 title: Cognitive Robotics Lab - Univesirity of Arkansas
 # description: {{site.description}}
-permalink: ./index.html 
+permalink: / 
 ---
 
 
